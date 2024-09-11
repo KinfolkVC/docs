@@ -1,19 +1,18 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Cuuro Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/Cuuro ML.svg",
+    "light": "/logo/Cuuro MD.svg"
   },
   "favicon": "/favicon.svg",
+  
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "anchors": { "from": "#FF7F57", "to": "#9563FF" },
+    "background": { "dark": "#090014" },
+    "dark": "#0D001D",
+    "light": "#AE87FF",
+    "primary": "#9563FF"
   },
   "topbarLinks": [
     {
