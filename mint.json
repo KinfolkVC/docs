@@ -5,7 +5,7 @@
     "dark": "/logo/Cuuro ML.svg",
     "light": "/logo/Cuuro MD.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   
   "colors": {
     "anchors": { "from": "#FF7F57", "to": "#9563FF" },
