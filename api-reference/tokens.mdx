@@ -1,0 +1,69 @@
+---
+title: "API Tokens"
+"og:title": "How to get my Cuuro.ai API key?"
+description: "Learn how to get your Cuuro.ai API key."
+icon: key
+---
+
+API Integrations on Cuuro.ai allow other apps to access your workspace programmatically. This is useful for integrating Cuuro with other tools and services.
+
+
+<Tip>Cuuro API keys are prefixed with `cuuro_` for easy identification.</Tip>
+
+## API Integrations
+
+You can create as many API integrations as you need, each with its own API token.
+
+<Frame>
+  <img
+    src="/images/developer-page.png"
+    alt="Api keys page on Cuuro"
+    width="1528"
+    height="974"
+  />
+</Frame>
+
+## How to create an API Integration
+
+You can create an API key by following these steps:
+
+<Steps>
+  <Step title="Go to your dashboard">
+    Go to **Settings** > **Developers** in your dashboard.
+
+  <Frame>
+    <img
+      src="/images/developer-page.png"
+      alt="Api keys page on Cuuro"
+      width="1528"
+      height="974"
+    />
+  </Frame>
+
+  </Step>
+  <Step title="Create an API Key">
+    Click on the "Create new integration" button 
+
+    <Frame>
+      <img
+        src="/images/create-integration-light.png"
+        alt="Creating an API Integration on Cuuro"
+        width="1528"
+        height="974"
+      />
+    </Frame>
+
+  </Step>
+  <Step title="Use your API Token">
+    Now that you have your API key, you can use it to access your dashboard's resources programmatically within API request in the API reference as a bearer token.
+
+    ```
+    Authorization: Bearer cuuro_xxxx
+    ```
+
+  </Step>
+</Steps>
+
+<Tip>
+  We recommend creating separate API Integrations for different integrations to keep your data secure.
+</Tip>
