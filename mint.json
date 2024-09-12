@@ -67,5 +67,8 @@
         "api-reference/target-companies/get-target-companies"
       ]
     }
-  ]
+  ],
+  "footerSocials": {
+    "website": "https://cuuro.ai"
+  }
 }
